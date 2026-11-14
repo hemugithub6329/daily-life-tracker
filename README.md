@@ -4,6 +4,17 @@ Daily Life Tracker is a local-first planner and progress tracker for daily habit
 
 This guide is written for a fresh Windows computer. Follow the sections in order and copy commands into **PowerShell**.
 
+## Start here: choose what you want to do
+
+You do not need to understand or edit the code just to run the app.
+
+- To **try it in a browser**, follow Parts 1–4 and run `npm run dev`.
+- To **use the Windows desktop version**, follow Parts 1–4 and run `npm run electron:dev`.
+- To **make Windows installer/portable EXE files**, follow Parts 1–3, then Part 5.
+- To **make an Android APK**, follow Parts 1–3, then the optional Android section in Part 6. Android builds need additional software.
+
+Run all commands in PowerShell, not inside a browser and not in the Android Studio search box. You can open PowerShell from the Windows Start menu. You do not need to run PowerShell as Administrator.
+
 ## What the app does
 
 - **Calendar and daily records:** select a date and work with that date's habits, study targets, notes, home tasks, and study sessions.
@@ -20,15 +31,15 @@ This guide is written for a fresh Windows computer. Follow the sections in order
 
 Data is stored locally on the device/browser. Different devices do not automatically share data. Use the app's export/import functions to move a backup between devices.
 
-## Part 1: Install the tools
+## Part 1: Install the tools (one time per computer)
 
-Install these programs first:
+Use a Windows 10/11 64-bit computer with an internet connection.
 
-1. **Git for Windows:** <https://git-scm.com/download/win>
-2. **Node.js 22 LTS:** <https://nodejs.org/> (npm is included with Node.js).
-3. **For Android builds only:** Android Studio, Android SDK Platform 36, and a Java Development Kit (JDK). This project has been built with JDK 21. Android Studio can install the Android SDK and tools.
+1. Install **Git for Windows** from <https://git-scm.com/download/win>. The normal installer choices are fine. If asked how Git should be used from the command line, choose the option that lets Git run from Command Prompt/PowerShell.
+2. Install **Node.js 22 LTS** from <https://nodejs.org/>. Download the LTS Windows installer and keep the default options. npm is installed together with Node.js.
+3. When both installers finish, close any open PowerShell or VS Code windows, then open a **new** PowerShell window. This makes Windows load the newly installed commands.
 
-After installing Git and Node.js, close and reopen PowerShell. Check that they work:
+4. Copy and paste these three lines into PowerShell, pressing Enter after each line:
 
 ```powershell
 git --version
@@ -36,9 +47,15 @@ node --version
 npm --version
 ```
 
-The Windows app and web app do not require Android Studio or a JDK.
+Each command should print a version number. If PowerShell says a command is not recognized, restart PowerShell; if that does not work, reinstall the named tool and restart the computer. Do not continue until Git, Node.js, and npm work.
+
+**Optional for writing/editing code:** install Visual Studio Code from <https://code.visualstudio.com/>. It is not required to run the app.
+
+**Only if building Android:** also install Android Studio and JDK 21. Those are not needed for the browser or Windows EXE.
 
 ## Part 2: Download the project from GitHub
+
+These commands download the project into a `daily-life-tracker` folder inside your Windows Documents folder. Copy and paste each line into PowerShell:
 
 ```powershell
 Set-Location "$HOME\Documents"
@@ -46,47 +63,92 @@ git clone https://github.com/hemugithub6329/daily-life-tracker.git
 Set-Location ".\daily-life-tracker"
 ```
 
-Because this repository is public, cloning it does not require GitHub sign-in. If you later rename the repository or change its visibility to private, use its **Code → HTTPS** clone address instead.
+When the command finishes, you are inside the project folder. This public repository can be downloaded without signing into GitHub. If Git reports that the folder already exists, do not clone it again into the same folder; instead open PowerShell and run:
+
+```powershell
+Set-Location "$HOME\Documents\daily-life-tracker"
+```
+
+### Optional: open the project in VS Code
+
+If you installed VS Code, run this while PowerShell is in the project folder:
+
+```powershell
+code .
+```
+
+If `code` is not recognized, open VS Code from the Start menu and choose **File → Open Folder**, then select `Documents\daily-life-tracker`. In VS Code, open **Terminal → New Terminal** to enter the commands below. The terminal must be in the folder containing `package.json`.
 
 ## Part 3: Install the project packages
 
-Run this from the project folder (the folder containing `package.json`):
+This is required once after cloning (and again only when project dependencies change). Make sure the PowerShell prompt is in the project folder, then run:
 
 ```powershell
 npm ci
 ```
 
-Wait until it finishes. This installs the exact JavaScript packages recorded in `package-lock.json`; it may take a few minutes the first time.
+Wait for the command to finish and for the PowerShell prompt to return. It downloads the project's exact packages from `package-lock.json`; the first install may take several minutes. You need an internet connection. Do not close the window while it is installing.
 
-If `npm ci` reports that `package-lock.json` does not match `package.json`, stop and ask the project maintainer to update and commit the lock file. Do not delete the lock file as a first fix.
+If it finishes and returns to the prompt, continue to Part 4. npm can print warning messages; a warning is not the same as a failed install. If it ends with `npm ERR!`, save the complete error message and resolve that before continuing. Do not delete `package-lock.json`.
+
+If `npm ci` reports that `package-lock.json` does not match `package.json`, stop and ask the project maintainer to update and commit the lock file.
+
+### Copy-and-paste first run for the Windows desktop app
+
+After Git and Node.js are installed and verified in Part 1, paste this whole block into PowerShell. The last command opens the app and stays running until you press **Ctrl+C**:
+
+```powershell
+Set-Location "$HOME\Documents"
+git clone https://github.com/hemugithub6329/daily-life-tracker.git
+Set-Location ".\daily-life-tracker"
+npm ci
+npm run electron:dev
+```
+
+For later runs, do not clone or reinstall packages again. Use the Part 4 **Run it again on another day** commands.
 
 ## Part 4: Run the app
 
 ### Run in a web browser
 
+From the project folder:
+
 ```powershell
 npm run dev
 ```
 
-Open the local address printed by Vite (normally <http://localhost:5173>). Keep the PowerShell window open while using the app. Press **Ctrl+C** in that window to stop the server.
+Wait until PowerShell prints a local address, usually `http://localhost:5173`. Hold **Ctrl** and click the address, or copy it into Chrome/Edge. Keep the PowerShell window open while using the app. To stop it, click the PowerShell window, press **Ctrl+C**, then confirm if asked.
 
 ### Run as a Windows desktop app
+
+Stop the browser server with **Ctrl+C** first if it is still running. In the project folder run:
 
 ```powershell
 npm run electron:dev
 ```
 
-This starts the local Vite server and opens Electron. Keep the terminal open. Press **Ctrl+C** to stop both processes.
+This starts the development server and opens the Daily Tracker desktop window. Keep PowerShell open while the app runs. Close the app window, then press **Ctrl+C** in PowerShell to stop the development processes.
 
-## Part 5: Build the Windows EXE files
+### Run it again on another day
 
-On Windows, from the project folder:
+You do not need to clone or run `npm ci` again. Open PowerShell and run:
+
+```powershell
+Set-Location "$HOME\Documents\daily-life-tracker"
+npm run electron:dev
+```
+
+Use `npm run dev` instead if you want the browser version. Keep the terminal open until finished using the app.
+
+## Part 5: Build the Windows EXE files (optional)
+
+The Windows installer and portable EXE are created on the Windows computer. First make sure you completed Parts 1–3. From PowerShell in the project folder, run:
 
 ```powershell
 npm run dist:win
 ```
 
-The build first creates the web app, then packages the Windows installer and portable app. Look in:
+Wait for the build to finish and the prompt to return. It first builds the web app, then packages the installer and portable app. Open File Explorer and enter this folder path:
 
 ```text
 release-new\
@@ -97,43 +159,63 @@ The configured output names are:
 - `Daily Tracker Setup 1.0.0.exe` — installer with Start Menu/desktop shortcut options.
 - `DailyTracker-Portable.exe` — portable Windows executable.
 
+Double-click the installer to install Daily Tracker, or double-click the portable EXE to run it without installing. Windows may show a SmartScreen warning because the packages are not code-signed. Only choose **Run anyway** if you built this project yourself and trust the source.
+
 To build only the portable version:
 
 ```powershell
 npm run dist:portable
 ```
 
-Windows packages may be flagged by Windows SmartScreen because they are not code-signed. Only run builds from source you trust.
+## Part 6: Build and install the Android APK (optional)
 
-## Part 6: Build the Android APK (optional)
+Skip this part if you only need the browser or Windows version. Android builds require Android Studio, Android SDK Platform 36, and JDK 17 or newer. JDK 21 is the tested setup.
 
-Android builds require Android Studio/Android SDK and JDK 17 or newer. This project has been built using JDK 21 and Android SDK Platform 36.
-
-1. Install Android Studio from <https://developer.android.com/studio>.
-2. In Android Studio's **SDK Manager**, install **Android SDK Platform 36** and the Android SDK Build-Tools.
-3. Install a JDK (JDK 21 is the tested setup).
-4. Open a new PowerShell window and go to the project folder.
-5. Set `JAVA_HOME` to the JDK folder on your own computer. For example:
+1. Install Android Studio from <https://developer.android.com/studio>. In its setup wizard, allow it to install Android SDK tools.
+2. Open Android Studio. On the welcome screen choose **More Actions → SDK Manager** (or **Tools → SDK Manager** if a project is open).
+3. In **SDK Platforms**, select **Android 16.0 / API 36**. In **SDK Tools**, select Android SDK Build-Tools and Android SDK Platform-Tools. Click **Apply** and wait for installation to finish.
+4. Install a JDK 21 from a trusted distributor such as Eclipse Temurin: <https://adoptium.net/temurin/releases/?version=21>. Restart PowerShell after installation.
+5. In a new PowerShell window, set `JAVA_HOME` to the actual JDK installation folder. Example only—your installed folder may have a different name:
 
 ```powershell
 $env:JAVA_HOME = "C:\Program Files\Eclipse Adoptium\jdk-21"
 ```
 
-Change that path if your JDK is installed somewhere else. Now build and sync the web assets, run Android tests, and build the APK:
+6. Point Gradle at the Android SDK installed by Android Studio. This is the usual Windows location; if Android Studio installed it somewhere else, replace the path with the SDK Location shown in SDK Manager:
+
+```powershell
+$env:ANDROID_HOME = "$env:LOCALAPPDATA\Android\Sdk"
+```
+
+7. Check that Java is available, then go to the project directory:
+
+```powershell
+java -version
+Set-Location "$HOME\Documents\daily-life-tracker"
+```
+
+8. Build the web part and copy it into Android:
 
 ```powershell
 npm run mobile:build
+```
+
+9. Run Android unit tests and build the APK:
+
+```powershell
 Set-Location ".\android"
 .\gradlew.bat testDebugUnitTest assembleRelease
 ```
 
-The APK is written to:
+Wait until Gradle reports `BUILD SUCCESSFUL`. The APK is written to:
 
 ```text
 android\app\build\outputs\apk\release\app-release.apk
 ```
 
-The repository does not include a signing key. If you have not configured a private release key, Gradle signs the APK with the standard **debug key**, which is suitable for local testing but not for publishing app updates. Android may require you to uninstall a previously installed APK if its signing key is different; uninstalling can erase that app's local data, so export a backup first.
+10. To install it on your phone, copy `app-release.apk` from the path above to the phone (USB file transfer or a trusted file-sharing method), open it in the phone's Files/Downloads app, and follow Android's install prompts. Android may ask you to allow that file manager to install unknown apps; only allow this for an APK you built from source you trust.
+
+**Important about updates:** the repository does not contain a release keystore. Without your own signing key configured, Gradle signs the APK with the standard debug key. This is for local testing and may not update an APK installed from a differently signed release. Android may require uninstalling the old app first, which can erase its local data; export a backup before uninstalling. To keep installing updates over time, securely back up and use the same private signing key each time.
 
 ### Sign Android releases with your own private key
 
@@ -182,32 +264,18 @@ Choose the option that fits the phone user's needs:
 
 **Do not confuse the controls:** the in-app Pause all / Resume button controls Daily Tracker's blocker; the Android Accessibility switch controls whether the service is enabled at all. The current app does not automatically disable or re-enable Android's Accessibility service when a banking app opens. Users must make that choice in Android Settings.
 
-## Copy the project to your own GitHub account
+## For maintainers: publish future changes to GitHub
 
-If GitHub already has a blank repository for this project, use its HTTPS URL. If not, create a new repository on GitHub, choose **Private** or **Public**, and leave **Add a README**, `.gitignore`, and license unchecked so the new repository is empty.
-
-From the project folder, review the files before uploading:
+This project is already connected to `https://github.com/hemugithub6329/daily-life-tracker`. After editing code or documentation, open PowerShell in the project folder and review the changed files:
 
 ```powershell
 git init -b main
 git status --short
 ```
 
-The root `.gitignore` excludes `node_modules`, generated build files, local `data`, installer/APK output, local settings, Firebase configuration, and Android signing keys. Make sure `android/app/release.jks`, any other `.jks`/`.keystore` files, passwords, and personal backup data do **not** appear in the status output. If they do, stop before running `git add`.
+The root `.gitignore` excludes `node_modules`, generated build files, local `data`, installer/APK output, local settings, Firebase configuration, and Android signing keys. Make sure `android/app/release.jks`, any other `.jks`/`.keystore` files, passwords, and personal backup data do **not** appear in the status output. If they do, stop; do not upload them.
 
-Then connect the blank GitHub repository and upload the source:
-
-```powershell
-git add .
-git status --short
-git commit -m "Initial project import"
-git remote add origin https://github.com/hemugithub6329/daily-life-tracker.git
-git push -u origin main
-```
-
-For this project, the URL above is already set to the current repository. GitHub will prompt you to authenticate when pushing if needed. If Git says the remote already exists, inspect it with `git remote -v` and use the correct URL before pushing.
-
-After the first upload, future updates are:
+To publish reviewed changes:
 
 ```powershell
 git add .
@@ -215,6 +283,8 @@ git status --short
 git commit -m "Describe your change"
 git push
 ```
+
+If GitHub asks you to sign in, finish authentication in the browser or Git Credential Manager; never put a password or access token in a Git command. Confirm the upload by refreshing the repository page.
 
 GitHub is for source code and instructions; it is not a substitute for exporting your personal app data or safely backing up an Android release keystore.
 
