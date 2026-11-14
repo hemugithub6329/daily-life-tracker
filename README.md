@@ -40,15 +40,13 @@ The Windows app and web app do not require Android Studio or a JDK.
 
 ## Part 2: Download the project from GitHub
 
-Replace `YOUR-USERNAME` below with the GitHub account or organization that owns the repository:
-
 ```powershell
 Set-Location "$HOME\Documents"
-git clone https://github.com/YOUR-USERNAME/daily-life-tracker.git
+git clone https://github.com/hemugithub6329/daily-life-tracker.git
 Set-Location ".\daily-life-tracker"
 ```
 
-If the repository has a different name or is private, use its **Code → HTTPS** clone address from GitHub. GitHub may ask you to sign in or configure a Git credential helper for a private repository.
+Because this repository is public, cloning it does not require GitHub sign-in. If you later rename the repository or change its visibility to private, use its **Code → HTTPS** clone address instead.
 
 ## Part 3: Install the project packages
 
@@ -203,11 +201,11 @@ Then connect the blank GitHub repository and upload the source:
 git add .
 git status --short
 git commit -m "Initial project import"
-git remote add origin https://github.com/YOUR-USERNAME/daily-life-tracker.git
+git remote add origin https://github.com/hemugithub6329/daily-life-tracker.git
 git push -u origin main
 ```
 
-Replace the URL with the repository's HTTPS URL. GitHub will prompt you to authenticate if needed. If Git says the remote already exists, inspect it with `git remote -v` and use the correct URL before pushing.
+For this project, the URL above is already set to the current repository. GitHub will prompt you to authenticate when pushing if needed. If Git says the remote already exists, inspect it with `git remote -v` and use the correct URL before pushing.
 
 After the first upload, future updates are:
 
