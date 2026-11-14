@@ -1,0 +1,1369 @@
+[
+  {
+    "year": "2025",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2025_csat-p1_8",
+        "name": "CSAT-P1",
+        "fileName": "QP-CSP-25-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2025_csat-p2_9",
+        "name": "CSAT-P2",
+        "fileName": "QP-CSP-25-GENERAL-STUDIES-PAPER-II-26052025.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2025_gs_paper_i_2",
+        "name": "GS Paper I",
+        "fileName": "GENERAL-STUDIES-PAPER I-QP-CSM-25-010925.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2025_gs_paper_ii_3",
+        "name": "GS Paper II",
+        "fileName": "GENERAL-STUDIES-PAPER-II-QP-CSM-25-010925.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2025_gs_paper_iii_4",
+        "name": "GS Paper III",
+        "fileName": "GENERAL-STUDIES-PAPER-III-QP-CSM-25-010925.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2025_gs_paper_iv_5",
+        "name": "GS Paper IV",
+        "fileName": "GENERAL-STUDIES-PAPER-IV-QP-CSM-25-010925.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2025_english_0",
+        "name": "English",
+        "fileName": "ENGLISH-COMPULSORY-QP-CSM-25-010925.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2025_telugu_10",
+        "name": "Telugu",
+        "fileName": "TELUGU-COMPULSORY-QP-CSM-25-010925.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2025_essay_1",
+        "name": "Essay",
+        "fileName": "ESSAY-QP-CSM-25-010925.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2025_psir-1_6",
+        "name": "PSIR-1",
+        "fileName": "POLITICAL-SCIENCE-INTERANATIONAL-RELATIONS-PAPER-I-QP-CSM-25-010925.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2025_psir-2_7",
+        "name": "PSIR-2",
+        "fileName": "POLITICAL-SCIENCE-INTERANATIONAL-RELATIONS-PAPER-II-QP-CSM-25-010925.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2024_csat-p1_2",
+        "name": "CSAT-P1",
+        "fileName": "QP-CSP-24-GENERAL-STUDIES-PAPER-I-180624.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2024_csat-p2_3",
+        "name": "CSAT-P2",
+        "fileName": "QP-CSP-24-GENERAL-STUDIES-PAPER-II-180624.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2024_gs_paper_i_9",
+        "name": "GS Paper I",
+        "fileName": "QP_CSM_2024_GenStud_I_03102024.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2024_gs_paper_ii_7",
+        "name": "GS Paper II",
+        "fileName": "QP_CSM_2024_GenStud_II_03102024.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2024_gs_paper_iii_6",
+        "name": "GS Paper III",
+        "fileName": "QP_CSM_2024_GenStud_III_03102024.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2024_gs_paper_iv_8",
+        "name": "GS Paper IV",
+        "fileName": "QP_CSM_2024_GenStud_IV_03102024.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2024_english_4",
+        "name": "English",
+        "fileName": "QP_CSM_2024_Eng_Comp_03102024.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2024_telugu_10",
+        "name": "Telugu",
+        "fileName": "QP_CSM_2024_Telu_Comp_03102024.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2024_essay_5",
+        "name": "Essay",
+        "fileName": "QP_CSM_2024_ESSAY_03102024.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2024_psir-1_0",
+        "name": "PSIR-1",
+        "fileName": "QP-CSM-24-POLITICAL-SCIENCE-INTERNL -REL-PAPER-I-031024.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2024_psir-2_1",
+        "name": "PSIR-2",
+        "fileName": "QP-CSM-24-POLITICAL-SCIENCE-INTERNL -REL-PAPER-II-031024.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2023_gs_paper_i_2",
+        "name": "GS Paper I",
+        "fileName": "QP-CSM-23-GENERAL-STUDIES-PAPER-I-180923.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2023_gs_paper_i_10",
+        "name": "GS Paper I",
+        "fileName": "QP_CS_Pre_Exam_2023_GENERAL_STUDIES_PAPER_I_280523.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2023_gs_paper_ii_3",
+        "name": "GS Paper II",
+        "fileName": "QP-CSM-23-GENERAL-STUDIES-PAPER-II-180923.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2023_gs_paper_ii_9",
+        "name": "GS Paper II",
+        "fileName": "QP_CS_Pre_Exam_2023_GENERAL_STUDIES_PAPER_II_280523.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2023_gs_paper_iii_4",
+        "name": "GS Paper III",
+        "fileName": "QP-CSM-23-GENERAL-STUDIES-PAPER-III-180923.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2023_gs_paper_iv_5",
+        "name": "GS Paper IV",
+        "fileName": "QP-CSM-23-GENERAL-STUDIES-PAPER-IV-180923.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2023_english_0",
+        "name": "English",
+        "fileName": "QP-CSM-23-ENGLISH-COMPULSORY-290923.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2023_telugu_8",
+        "name": "Telugu",
+        "fileName": "QP-CSM-23-TELUGU-COMPULSORY-290923.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2023_essay_1",
+        "name": "Essay",
+        "fileName": "QP-CSM-23-ESSAY-180923.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2023_psir-1_6",
+        "name": "PSIR-1",
+        "fileName": "QP-CSM-23-POL-SC-IR-PAPER-I-29092023.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2023_psir-2_7",
+        "name": "PSIR-2",
+        "fileName": "QP-CSM-23-POL-SC-IR-PAPER-II-29092023.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2022",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2022_gs_paper_i_2",
+        "name": "GS Paper I",
+        "fileName": "QP-CSM-22-GENERAL-STUDIES-PAPER I-190922.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2022_gs_paper_i_10",
+        "name": "GS Paper I",
+        "fileName": "QP_CS_Pre_Exam_2022_GENERAL_STUDIES_PAPER_I_280523.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2022_gs_paper_ii_4",
+        "name": "GS Paper II",
+        "fileName": "QP-CSM-22-GENERAL-STUDIES-PAPER-II-190922.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2022_gs_paper_ii_9",
+        "name": "GS Paper II",
+        "fileName": "QP_CS_Pre_Exam_2022_GENERAL_STUDIES_PAPER_II_280523.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2022_gs_paper_iii_5",
+        "name": "GS Paper III",
+        "fileName": "QP-CSM-22-GENERAL-STUDIES-PAPER-III-190922.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2022_gs_paper_iv_3",
+        "name": "GS Paper IV",
+        "fileName": "QP-CSM-22-GENERAL-STUDIES-PAPER IV-190922.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2022_english_0",
+        "name": "English",
+        "fileName": "QP-CSM-22-ENGLISH-Compl-280922.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2022_telugu_8",
+        "name": "Telugu",
+        "fileName": "QP-CSM-22-TELUGU-Compl-280922.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2022_essay_1",
+        "name": "Essay",
+        "fileName": "QP-CSM-22-ESSAY-190922.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2022_psir-1_6",
+        "name": "PSIR-1",
+        "fileName": "QP-CSM-22-POLITICAL-SCIENCE-AND-INTERNATIONAL-RELATIONS-PAPER-I-280922.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2022_psir-2_7",
+        "name": "PSIR-2",
+        "fileName": "QP-CSM-22-POLITICAL-SCIENCE-AND-INTERNATIONAL-RELATIONS-PAPER-II-280922.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2021_csat-p1_8",
+        "name": "CSAT-P1",
+        "fileName": "QP-CSP-21-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2021_csat-p2_9",
+        "name": "CSAT-P2",
+        "fileName": "QP-CSP-21-GENERAL-STUDIES-PAPER-II-26052025.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2021_gs_paper_i_4",
+        "name": "GS Paper I",
+        "fileName": "QP-CSM-21-GENSTUDIESPAPER-I-110122.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2021_gs_paper_ii_5",
+        "name": "GS Paper II",
+        "fileName": "QP-CSM-21-GENSTUDIESPAPER-II-110122.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2021_gs_paper_iii_6",
+        "name": "GS Paper III",
+        "fileName": "QP-CSM-21-GENSTUDIESPAPER-III-110122.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2021_gs_paper_iv_7",
+        "name": "GS Paper IV",
+        "fileName": "QP-CSM-21-GENSTUDIESPAPER-IV-110122.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2021_english_0",
+        "name": "English",
+        "fileName": "English.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2021_telugu_10",
+        "name": "Telugu",
+        "fileName": "Telugu.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2021_essay_3",
+        "name": "Essay",
+        "fileName": "QP-CSM-21-ESSAY-110122.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2021_psir-1_1",
+        "name": "PSIR-1",
+        "fileName": "Political Science and International Relations Paper-I.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2021_psir-2_2",
+        "name": "PSIR-2",
+        "fileName": "Political Science and International Relations Paper-II.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2020",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2020_csat-p1_8",
+        "name": "CSAT-P1",
+        "fileName": "QP-CSP-20-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2020_csat-p2_9",
+        "name": "CSAT-P2",
+        "fileName": "QP-CSP-20-GENERAL-STUDIES-PAPER-II-26052025.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2020_gs_paper_i_2",
+        "name": "GS Paper I",
+        "fileName": "Gen_St_P1.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2020_gs_paper_ii_3",
+        "name": "GS Paper II",
+        "fileName": "Gen_St_P2.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2020_gs_paper_iii_4",
+        "name": "GS Paper III",
+        "fileName": "Gen_St_P3.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2020_gs_paper_iv_5",
+        "name": "GS Paper IV",
+        "fileName": "Gen_St_P4.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2020_english_0",
+        "name": "English",
+        "fileName": "ENGLISH (1).pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2020_telugu_10",
+        "name": "Telugu",
+        "fileName": "TELUGU_0.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2020_essay_1",
+        "name": "Essay",
+        "fileName": "ESSAY_1.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2020_unknown_6",
+        "name": "Unknown",
+        "fileName": "POL_SC_I.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2020_unknown_7",
+        "name": "Unknown",
+        "fileName": "POL_SC_II.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2019_csat-p1_9",
+        "name": "CSAT-P1",
+        "fileName": "QP-CSP-19-GENERAL-STUDIES-PAPER-I-26052025.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2019_csat-p2_10",
+        "name": "CSAT-P2",
+        "fileName": "QP-CSP-19-GENERAL-STUDIES-PAPER-II-26052025.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2019_gs_paper_i_2",
+        "name": "GS Paper I",
+        "fileName": "QP-CSM19-GeneralStudies-I.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2019_gs_paper_ii_3",
+        "name": "GS Paper II",
+        "fileName": "QP-CSM19-GeneralStudies-II.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2019_gs_paper_iii_4",
+        "name": "GS Paper III",
+        "fileName": "QP-CSM19-GeneralStudies-III.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2019_gs_paper_iv_5",
+        "name": "GS Paper IV",
+        "fileName": "QP-CSM19-GeneralStudies-IV.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2019_english_0",
+        "name": "English",
+        "fileName": "QP-CSM19-EnglishCompulsory.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2019_telugu_8",
+        "name": "Telugu",
+        "fileName": "QP-CSM19-TeluguCompulory.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2019_essay_1",
+        "name": "Essay",
+        "fileName": "QP-CSM19-Essay.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2019_unknown_6",
+        "name": "Unknown",
+        "fileName": "QP-CSM19-PolScIR-I.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2019_unknown_7",
+        "name": "Unknown",
+        "fileName": "QP-CSM19-PolScIR-II.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2018",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2018_gs_paper_i_2",
+        "name": "GS Paper I",
+        "fileName": "GENERAL-STUDIES-PAPER-I.pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2018_gs_paper_ii_3",
+        "name": "GS Paper II",
+        "fileName": "GENERAL-STUDIES-PAPER-II.pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2018_gs_paper_iii_4",
+        "name": "GS Paper III",
+        "fileName": "GENERAL-STUDIES-PAPER-III.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2018_gs_paper_iv_5",
+        "name": "GS Paper IV",
+        "fileName": "GENERAL-STUDIES-PAPER-IV.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2018_english_0",
+        "name": "English",
+        "fileName": "ENGLISH-COMP_0.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2018_telugu_10",
+        "name": "Telugu",
+        "fileName": "TELUGU-COMP.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2018_essay_1",
+        "name": "Essay",
+        "fileName": "ESSAY_0.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2018_psir-1_6",
+        "name": "PSIR-1",
+        "fileName": "POL-SCI-INTERNAL-PAPER-I.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2018_psir-2_7",
+        "name": "PSIR-2",
+        "fileName": "POL-SCI-INTERNAL-PAPER-II.pdf",
+        "category": "psir2",
+        "priority": 11
+      },
+      {
+        "id": "2018_unknown_8",
+        "name": "Unknown",
+        "fileName": "QP-CSP-18-GS-I-C.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2018_unknown_9",
+        "name": "Unknown",
+        "fileName": "QP-CSP-18-GS-II-C.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2017_csat-p2_1",
+        "name": "CSAT-P2",
+        "fileName": "CSP-17-GS_PAPER-II-C.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2017_english_2",
+        "name": "English",
+        "fileName": "ENGLISH_3.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2017_telugu_10",
+        "name": "Telugu",
+        "fileName": "TELUGU.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2017_essay_3",
+        "name": "Essay",
+        "fileName": "ESSAY.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2017_unknown_0",
+        "name": "Unknown",
+        "fileName": "CSP-17-GS_PAPER-1-C.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2017_unknown_4",
+        "name": "Unknown",
+        "fileName": "GS1_1.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2017_unknown_5",
+        "name": "Unknown",
+        "fileName": "GS2_0.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2017_unknown_6",
+        "name": "Unknown",
+        "fileName": "GS3_0.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2017_unknown_7",
+        "name": "Unknown",
+        "fileName": "GS4_0.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2017_unknown_8",
+        "name": "Unknown",
+        "fileName": "POL_SCI1.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2017_unknown_9",
+        "name": "Unknown",
+        "fileName": "POL_SCI2.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2016_csat-p1_0",
+        "name": "CSAT-P1",
+        "fileName": "CSP-16-GS_PAPER-I-C.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2016_csat-p2_1",
+        "name": "CSAT-P2",
+        "fileName": "CSP-16-GS_PAPER-II-C.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2016_english_3",
+        "name": "English",
+        "fileName": "ENGLISH (COM).pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2016_telugu_10",
+        "name": "Telugu",
+        "fileName": "TELUGU_COM.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2016_unknown_2",
+        "name": "Unknown",
+        "fileName": "EASSY_0.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2016_unknown_4",
+        "name": "Unknown",
+        "fileName": "GS1_0.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2016_unknown_5",
+        "name": "Unknown",
+        "fileName": "GS2.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2016_unknown_6",
+        "name": "Unknown",
+        "fileName": "GS3.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2016_unknown_7",
+        "name": "Unknown",
+        "fileName": "GS4.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2016_unknown_8",
+        "name": "Unknown",
+        "fileName": "POL_SCIENCE1.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2016_unknown_9",
+        "name": "Unknown",
+        "fileName": "POL_SCIENCE2.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2015",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2015_csat-p1_1",
+        "name": "CSAT-P1",
+        "fileName": "CSP-15-GS_PAPER-I-C.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2015_csat-p2_2",
+        "name": "CSAT-P2",
+        "fileName": "CSP-15-GS_PAPER-II-C.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2015_english_0",
+        "name": "English",
+        "fileName": "Compulsory-English-2015.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2015_telugu_8",
+        "name": "Telugu",
+        "fileName": "Mains-Compulsory-Telugu-2015.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2015_essay_3",
+        "name": "Essay",
+        "fileName": "ESSAY_COMP.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2015_unknown_4",
+        "name": "Unknown",
+        "fileName": "GS-IV.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2015_unknown_5",
+        "name": "Unknown",
+        "fileName": "GS1.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2015_unknown_6",
+        "name": "Unknown",
+        "fileName": "GS11.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2015_unknown_7",
+        "name": "Unknown",
+        "fileName": "GS111.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2015_unknown_9",
+        "name": "Unknown",
+        "fileName": "political-science-and-internal-relation-optional-I (1).pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2015_unknown_10",
+        "name": "Unknown",
+        "fileName": "political-science-and-internal-relation-optional-II.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2014",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2014_csat-p1_1",
+        "name": "CSAT-P1",
+        "fileName": "CSP-14-GS_PAPER-I-C.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2014_csat-p2_2",
+        "name": "CSAT-P2",
+        "fileName": "CSP-14-GS_PAPER-II-C.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2014_gs_paper_i_4",
+        "name": "GS Paper I",
+        "fileName": "GENERAL STUDIES-I (1).pdf",
+        "category": "gs1",
+        "priority": 3
+      },
+      {
+        "id": "2014_gs_paper_ii_5",
+        "name": "GS Paper II",
+        "fileName": "GENERAL STUDIES-II (1).pdf",
+        "category": "gs2",
+        "priority": 4
+      },
+      {
+        "id": "2014_gs_paper_iii_6",
+        "name": "GS Paper III",
+        "fileName": "GENERAL STUDIES-III.pdf",
+        "category": "gs3",
+        "priority": 5
+      },
+      {
+        "id": "2014_gs_paper_iv_7",
+        "name": "GS Paper IV",
+        "fileName": "GENERAL STUDIES-IV.pdf",
+        "category": "gs4",
+        "priority": 6
+      },
+      {
+        "id": "2014_english_0",
+        "name": "English",
+        "fileName": "COMPULSORY-English-2014.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2014_telugu_8",
+        "name": "Telugu",
+        "fileName": "Mains-Compulsory-Telugu-2014.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2014_unknown_3",
+        "name": "Unknown",
+        "fileName": "EASSY.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2014_unknown_9",
+        "name": "Unknown",
+        "fileName": "political-science-and-internal-relation-optional-I.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2014_unknown_10",
+        "name": "Unknown",
+        "fileName": "political-science-and-internal-relation-optional-II.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2013",
+    "paperCount": 11,
+    "papers": [
+      {
+        "id": "2013_csat-p1_0",
+        "name": "CSAT-P1",
+        "fileName": "CSP-13-GS_PAPER-I-C.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2013_csat-p2_1",
+        "name": "CSAT-P2",
+        "fileName": "CSP-13-GS_PAPER-II-C.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2013_english_7",
+        "name": "English",
+        "fileName": "IAS-Mains-Compulsory-English-2013.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2013_telugu_10",
+        "name": "Telugu",
+        "fileName": "Mains-Compulsory-Telugu-2013.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2013_essay_2",
+        "name": "Essay",
+        "fileName": "Essay.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2013_psir-1_8",
+        "name": "PSIR-1",
+        "fileName": "IAS-Mains-Political-Science-2013 paper I.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2013_psir-2_9",
+        "name": "PSIR-2",
+        "fileName": "IAS-Mains-Political-Science-2013 paper II.pdf",
+        "category": "psir2",
+        "priority": 11
+      },
+      {
+        "id": "2013_unknown_3",
+        "name": "Unknown",
+        "fileName": "GS I.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2013_unknown_4",
+        "name": "Unknown",
+        "fileName": "GS II.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2013_unknown_5",
+        "name": "Unknown",
+        "fileName": "GS III.pdf",
+        "category": "unknown",
+        "priority": 99
+      },
+      {
+        "id": "2013_unknown_6",
+        "name": "Unknown",
+        "fileName": "GS IV.pdf",
+        "category": "unknown",
+        "priority": 99
+      }
+    ]
+  },
+  {
+    "year": "2012",
+    "paperCount": 7,
+    "papers": [
+      {
+        "id": "2012_csat-p1_0",
+        "name": "CSAT-P1",
+        "fileName": "CSP-12-GS_PAPER-I-C.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2012_csat-p2_1",
+        "name": "CSAT-P2",
+        "fileName": "CSP-12-GS_PAPER-II-C.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2012_english_2",
+        "name": "English",
+        "fileName": "IAS-Mains-Compulsory-English-2012.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2012_telugu_3",
+        "name": "Telugu",
+        "fileName": "IAS-Mains-Compulsory-Telugu-2012.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2012_essay_4",
+        "name": "Essay",
+        "fileName": "IAS-Mains-Essay-2012.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2012_psir-1_5",
+        "name": "PSIR-1",
+        "fileName": "IAS-Mains-Political-Science-2012  paper 1.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2012_psir-2_6",
+        "name": "PSIR-2",
+        "fileName": "IAS-Mains-Political-Science-2012  paper II.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2011",
+    "paperCount": 7,
+    "papers": [
+      {
+        "id": "2011_csat-p1_0",
+        "name": "CSAT-P1",
+        "fileName": "CSP-11-GS_PAPER-I-C.pdf",
+        "category": "csat-p1",
+        "priority": 1
+      },
+      {
+        "id": "2011_csat-p2_1",
+        "name": "CSAT-P2",
+        "fileName": "CSP-11-GS_PAPER-II-C.pdf",
+        "category": "csat-p2",
+        "priority": 2
+      },
+      {
+        "id": "2011_english_2",
+        "name": "English",
+        "fileName": "IAS-Mains-Compulsory-English-2011.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2011_telugu_3",
+        "name": "Telugu",
+        "fileName": "IAS-Mains-Compulsory-Telugu-2011.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2011_essay_4",
+        "name": "Essay",
+        "fileName": "IAS-Mains-Essay-2011.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2011_psir-1_5",
+        "name": "PSIR-1",
+        "fileName": "IAS-Mains-Political-Science-Paper-1-2011.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2011_psir-2_6",
+        "name": "PSIR-2",
+        "fileName": "IAS-Mains-Political-Science-Paper-2-2011.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2010",
+    "paperCount": 6,
+    "papers": [
+      {
+        "id": "2010_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2010.pdf",
+        "category": "csat",
+        "priority": 1
+      },
+      {
+        "id": "2010_english_1",
+        "name": "English",
+        "fileName": "IAS-Mains-Compulsory-English-2010.pdf",
+        "category": "english",
+        "priority": 7
+      },
+      {
+        "id": "2010_telugu_2",
+        "name": "Telugu",
+        "fileName": "IAS-Mains-Compulsory-Telugu-2010.pdf",
+        "category": "telugu",
+        "priority": 8
+      },
+      {
+        "id": "2010_essay_3",
+        "name": "Essay",
+        "fileName": "IAS-Mains-Essay-2010.pdf",
+        "category": "essay",
+        "priority": 9
+      },
+      {
+        "id": "2010_psir-1_4",
+        "name": "PSIR-1",
+        "fileName": "IAS-Mains-Political-Science-2010 paper I.pdf",
+        "category": "psir1",
+        "priority": 10
+      },
+      {
+        "id": "2010_psir-2_5",
+        "name": "PSIR-2",
+        "fileName": "IAS-Mains-Political-Science-2010 paper II.pdf",
+        "category": "psir2",
+        "priority": 11
+      }
+    ]
+  },
+  {
+    "year": "2009",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2009_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2009.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2008",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2008_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2008.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2007",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2007_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2007.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2006",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2006_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2006.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2005",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2005_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2005.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2004",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2004_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2004.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2003",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2003_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2003.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2002",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2002_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2002.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2001",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2001_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2001.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  },
+  {
+    "year": "2000",
+    "paperCount": 1,
+    "papers": [
+      {
+        "id": "2000_csat_0",
+        "name": "CSAT",
+        "fileName": "CSAT 2000.pdf",
+        "category": "csat",
+        "priority": 1
+      }
+    ]
+  }
+]

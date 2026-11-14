@@ -1,0 +1,37 @@
+# Dependencies and generated web output
+node_modules/
+dist/
+
+# Built Windows installers and portable applications
+release/
+release-new/
+
+# Local app data and backups
+/data/
+*.backup
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+android/local.properties
+android/app/*.jks
+android/app/*.keystore
+*.jks
+*.keystore
+google-services.json
+android/app/google-services.json
+
+# Generated Android and Gradle files
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.iml
+*.log
+Thumbs.db
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "name": "Daily Life Tracker",
+  "short_name": "LifeTracker",
+  "description": "Track your daily habits, study progress, and life goals",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

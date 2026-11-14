@@ -1,0 +1,44 @@
+[
+  {
+    "id": "post-read-1",
+    "name": "The Hindu Editorial Analysis",
+    "category": "Newspaper",
+    "fileName": "hindu-editorial.pdf",
+    "pdfPath": "/post-reads/hindu-editorial.pdf"
+  },
+  {
+    "id": "post-read-2",
+    "name": "Indian Express Op-Ed",
+    "category": "Newspaper",
+    "fileName": "indian-express-oped.pdf",
+    "pdfPath": "/post-reads/indian-express-oped.pdf"
+  },
+  {
+    "id": "post-read-3",
+    "name": "Yojana Magazine",
+    "category": "Magazine",
+    "fileName": "yojana-magazine.pdf",
+    "pdfPath": "/post-reads/yojana-magazine.pdf"
+  },
+  {
+    "id": "post-read-4",
+    "name": "Kurukshetra Magazine",
+    "category": "Magazine",
+    "fileName": "kurukshetra-magazine.pdf",
+    "pdfPath": "/post-reads/kurukshetra-magazine.pdf"
+  },
+  {
+    "id": "post-read-5",
+    "name": "PIB Daily Summary",
+    "category": "Government",
+    "fileName": "pib-summary.pdf",
+    "pdfPath": "/post-reads/pib-summary.pdf"
+  },
+  {
+    "id": "post-read-6",
+    "name": "PRS Legislative Research",
+    "category": "Research",
+    "fileName": "prs-research.pdf",
+    "pdfPath": "/post-reads/prs-research.pdf"
+  }
+]
