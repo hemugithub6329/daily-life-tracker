@@ -269,7 +269,6 @@ Choose the option that fits the phone user's needs:
 This project is already connected to `https://github.com/hemugithub6329/daily-life-tracker`. After editing code or documentation, open PowerShell in the project folder and review the changed files:
 
 ```powershell
-git init -b main
 git status --short
 ```
 
